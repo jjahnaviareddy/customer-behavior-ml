@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (keep structure, not raw files)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models (large binaries)
+models/*.pkl
+
+# Reports (regenerated)
+reports/figures/*.png
+reports/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
